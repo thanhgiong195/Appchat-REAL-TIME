@@ -46,7 +46,7 @@ $(document).ready(function () {
 
 	$("#btnSendMessage").click(function () {
 		socket.emit("user-send-message", $("#txtMessage").val());
-		$("#txtMessage").html("");
+		$("#txtMessage").val("");
 	});
 
 	$("#txtMessage").focusin(function () {

@@ -8,5 +8,4 @@ body{background-color: #ebeef4}
 #boxContent{border: solid 1px black; border-top: none; padding: 5px; text-align: center;}
 #sayHi{text-align: right;}
 #listMessages{height: 200px; background-color: #fcead4; margin-bottom: 15px;}
-
 #txtMessage{background-color: transparent; border: solid 1px black;}
