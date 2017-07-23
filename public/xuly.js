@@ -1,4 +1,5 @@
-var socket = io("http://localhost:3000");
+//var socket = io("http://localhost:3000");
+var socket = io("https://thanhgiong-pj2.herokuapp.com");
 
 socket.on("server-send-dki-thatbai", function () {
 	alert("Sai Username, co nguoi dang ky roi!!!");
