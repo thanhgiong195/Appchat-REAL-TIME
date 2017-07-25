@@ -37,26 +37,10 @@
 				<input type="button" id="btnSendMessage" value="Send">
 			</div>
 		</div>
-		<h3>My Google Maps Demo</h3>
 		<div id="map">
+			<h3>My Google Maps Demo</h3>
+		<iframe src="https://www.google.com/maps/d/embed?mid=193t0igKstM7hVfhVpsZCFC8YoyE" width="640" height="480"></iframe>
 		</div>
-		<script>
-      function initMap() {
-        var uluru = {lat: 21.0278, lng: 105.8342};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-
-		<script async defer
-		  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ4euYDLLtFWXan8feurtp4IVP58wgNJ4&callback=initMap">
-		</script>
 	</div>
 </body>
 </html>

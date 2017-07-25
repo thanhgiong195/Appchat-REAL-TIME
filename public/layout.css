@@ -9,4 +9,4 @@ body{background-color: #ebeef4}
 #sayHi{text-align: right;}
 #listMessages{min-height: 200px; background-color: #fcead4; margin-bottom: 15px;}
 #txtMessage{background-color: transparent; border: solid 1px black;}
-#map{height: 400px; width: 100%; background-color: grey}
+#map{height: 400px; width: 100%}
